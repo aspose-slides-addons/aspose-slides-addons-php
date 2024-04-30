@@ -1,0 +1,38 @@
+{
+    "name": "aspose-slides-addons/php-sdk",
+    "version": "24.4.0",
+    "description": "Aspose.Slides Addons Web API for managing PowerPoint presentations.",
+    "keywords": [
+        "powerpoint api",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://products.aspose.dev/slides/",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "Aspose.Slides Team",
+            "homepage": "https://products.aspose.dev/slides/"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "Aspose\\Slides\\Addons\\Sdk\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Aspose\\Slides\\Addons\\Sdk\\Test\\" : "test/" }
+    }
+}
